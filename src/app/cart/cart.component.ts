@@ -26,6 +26,6 @@ export class CartComponent implements OnInit {
     alert('submitted');
     alert(this.checkoutForm.value);
     console.log(this.checkoutForm.value);
-    ///this.checkoutForm.reset();
+    this.checkoutForm.reset();
   }
 }
